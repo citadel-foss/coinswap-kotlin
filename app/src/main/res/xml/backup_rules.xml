@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="sharedpref" path="coinswap_taker_config.xml" />
+    <exclude domain="sharedpref" path="coinswap_taker_secrets.xml" />
+    <exclude domain="file" path="taker/" />
+</full-backup-content>

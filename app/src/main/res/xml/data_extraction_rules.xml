@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="coinswap_taker_config.xml" />
+        <exclude domain="sharedpref" path="coinswap_taker_secrets.xml" />
+        <exclude domain="file" path="taker/" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="coinswap_taker_config.xml" />
+        <exclude domain="sharedpref" path="coinswap_taker_secrets.xml" />
+        <exclude domain="file" path="taker/" />
+    </device-transfer>
+</data-extraction-rules>
